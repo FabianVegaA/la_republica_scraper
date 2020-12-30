@@ -1,0 +1,4 @@
+Links = //div[@class="row row-cols-3"]/div/div/a/@href
+Title = //h2[@style="font-size: 47px; line-height: 51px;"]/a/text()
+Summary = //div[@class="lead"]/p/text()
+Body = //div[@class="html-content"]/p[not(@class)]/text()
